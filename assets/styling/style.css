@@ -7,7 +7,7 @@ body {
 /* header-section */
 .header-bg {
     background-image: url("../images/yq61-hero\ \(1\).png");
-    height: 300px;
+    height: 340px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,6 +193,9 @@ form input {
 .display-none{
     display: none;
 }
+.bordeRounded{
+    border-radius: 15px 15px 15px 15px;
+}
 
 /* cards-section */
 .card-bgImg1 {
@@ -202,9 +205,58 @@ form input {
     background-size: cover;
     height: 230px;
 }
+.card-bgImg2 {
+    background-image: url("../images/img2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg3 {
+    background-image: url("../images/img3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg4 {
+    background-image: url("../images/img4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg5 {
+    background-image: url("../images/img5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg6 {
+    background-image: url("../images/img6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg7 {
+    background-image: url("../images/img7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.card-bgImg8 {
+    background-image: url("../images/img8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
 
 .overlay {
-    background-image: url("../images/pablo-merchan-montes-dc_JMu8lb5U-unsplash.png");
+    background-image: url("../images/overlay.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
