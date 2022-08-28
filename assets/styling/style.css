@@ -6,12 +6,12 @@ body {
 
 /* header-section */
 .header-bg {
-    background-image: url("../images/yq61-hero\ \(1\).png");
-    height: 340px;
+    background-image: url("../images/hero-main3.png");
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0px 0px 140px 0px;
+    /* border-radius: 0px 0px 140px 0px; */
 }
 
 .header-bg-black {
@@ -72,7 +72,7 @@ button a:hover {
 }
 
 .mtop {
-    margin-top: -50px;
+    margin-top: -90px;
 }
 
 .white-circle {
@@ -146,6 +146,7 @@ button a:hover {
     box-shadow: 0 73px 99px 0 rgba(0, 0, 0, 0.09);
     background-color: #fff;
 }
+
 .bg-transparent {
     background-color: transparent;
     border: solid 2px #eee;
@@ -154,7 +155,7 @@ button a:hover {
 /* search-rectangle */
 .rectangle {
     padding: 24px 30px;
-    width: 40%;
+    /* width: 40%; */
     border-radius: 30px;
     box-shadow: 0 73px 99px 0 rgba(0, 0, 0, 0.09);
     background-color: #fff;
@@ -177,23 +178,28 @@ form input {
 ::placeholder {
     color: #768590;
 }
-.filter{
+
+.filter {
     background-color: #fff;
     left: 0;
     right: 0;
     top: 110px;
     border-radius: 0px 0px 15px 15px;
 }
-.border-orange{
+
+.border-orange {
     border: 1px solid #f2801d;
 }
-.apply-filter{
+
+.apply-filter {
     border-radius: 0px 10px 10px 10px;
 }
-.display-none{
+
+.display-none {
     display: none;
 }
-.bordeRounded{
+
+.bordeRounded {
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -205,6 +211,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg2 {
     background-image: url("../images/img2.png");
     background-position: center;
@@ -212,6 +219,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg3 {
     background-image: url("../images/img3.png");
     background-position: center;
@@ -219,6 +227,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg4 {
     background-image: url("../images/img4.png");
     background-position: center;
@@ -226,6 +235,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg5 {
     background-image: url("../images/img5.png");
     background-position: center;
@@ -233,6 +243,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg6 {
     background-image: url("../images/img6.png");
     background-position: center;
@@ -240,6 +251,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg7 {
     background-image: url("../images/img7.png");
     background-position: center;
@@ -247,6 +259,7 @@ form input {
     background-size: cover;
     height: 230px;
 }
+
 .card-bgImg8 {
     background-image: url("../images/img8.png");
     background-position: center;
@@ -278,7 +291,8 @@ form input {
     box-shadow: 0 73px 99px 0 rgba(0, 0, 0, 0.09);
     background-color: #fff;
 }
-.white-rgba-circle{
+
+.white-rgba-circle {
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -291,299 +305,384 @@ footer {
     background-color: #232122;
     border-radius: 80px 0px 0px 0px;
 }
+
 /* hamburger */
 
-  
-  .topnav {
+
+.topnav {
     overflow: hidden;
     background-color: #333;
     z-index: 999;
-  }
+}
 
-  .topnav .fa {
+.topnav .fa {
     color: white;
     text-decoration: none;
     font-size: 17px;
     display: flex;
-  }
-  .topnav .nav-bar{
+}
+
+.topnav .nav-bar {
     background-color: #232122;
     color: white;
     display: none;
     padding: 20px 0px;
-    
-  }
-  .main-ham{
+
+}
+
+.main-ham {
     left: 0;
     right: 0;
     top: 70px;
-  }
-  .topnav .nav-bar a{
+}
+
+.topnav .nav-bar a {
     text-decoration: none;
     color: white;
-    
-  }
-  
+
+}
+
 /* mobile-responsive */
-@media (max-width: 479px) and (min-width: 320px) { 
-    .font-size-12{
+@media (max-width: 479px) and (min-width: 320px) {
+    .font-size-12 {
         font-size: 8px;
     }
-    .font-size-15{
+
+    .font-size-15 {
         font-size: 10px !important;
     }
-    .font-size-20{
+
+    .font-size-20 {
         font-size: 15px !important;
     }
-    .header-bg{
+
+    .header-bg {
         border-radius: unset;
     }
-    .contact-bg{
+
+    .contact-bg {
         width: 260px;
     }
-    .logo{
+
+    .logo {
         width: 120px !important;
     }
-    .rectangle{
+
+    .rectangle {
         padding: 14px 8px;
         width: unset !important;
     }
-    .delivery-bg{
+
+    .delivery-bg {
         width: 150px;
         height: 30px;
     }
-    .rating-bg{
+
+    .rating-bg {
         width: 50px;
         height: 30px;
     }
-    .white-circle{
+
+    .white-circle {
         width: 30px;
         height: 30px;
     }
-    .orange-circle{
+
+    .orange-circle {
         width: 25px;
         height: 25px;
     }
-    .white-rgba-circle{
+
+    .white-rgba-circle {
         width: 25px;
         height: 25px;
     }
-    .pagination{
+
+    .pagination {
         width: 190px;
         height: 40px;
     }
-    .city-bg{
+
+    .city-bg {
         width: 110px;
         height: 30px;
     }
 }
 
 @media (max-width: 567px) and (min-width: 480px) {
-    .font-size-12{
+    .font-size-12 {
         font-size: 8px;
     }
-    .font-size-15{
+
+    .font-size-15 {
         font-size: 10px !important;
     }
-    .font-size-20{
+
+    .font-size-20 {
         font-size: 15px !important;
     }
-    .header-bg{
+
+    .header-bg {
         border-radius: unset;
     }
-    .contact-bg{
+
+    .contact-bg {
         width: 260px;
     }
-    .logo{
+
+    .logo {
         width: 120px !important;
     }
-    .rectangle{
+
+    .rectangle {
         padding: 14px 8px;
         width: unset !important;
     }
-    .delivery-bg{
+
+    .delivery-bg {
         width: 150px;
         height: 30px;
     }
-    .rating-bg{
+
+    .rating-bg {
         width: 50px;
         height: 30px;
     }
-    .white-circle{
+
+    .white-circle {
         width: 30px;
         height: 30px;
     }
-    .orange-circle{
+
+    .orange-circle {
         width: 25px;
         height: 25px;
     }
-    .white-rgba-circle{
+
+    .white-rgba-circle {
         width: 25px;
         height: 25px;
     }
-    .pagination{
+
+    .pagination {
         width: 190px;
         height: 40px;
     }
-    .city-bg{
+
+    .city-bg {
         width: 110px;
         height: 30px;
     }
- }
+}
+
 @media (max-width: 684px) and (min-width: 568px) {
-    .font-size-12{
+    .font-size-12 {
         font-size: 8px;
     }
-    .font-size-15{
+
+    .font-size-15 {
         font-size: 10px !important;
     }
-    .font-size-20{
+
+    .font-size-20 {
         font-size: 15px !important;
     }
-    .header-bg{
+
+    .header-bg {
         border-radius: unset;
     }
-    .contact-bg{
+
+    .contact-bg {
         width: 260px;
     }
-    .logo{
+
+    .logo {
         width: 120px !important;
     }
-    .rectangle{
+
+    .rectangle {
         padding: 14px 8px;
         width: unset !important;
     }
-    .delivery-bg{
+
+    .delivery-bg {
         width: 150px;
         height: 30px;
     }
-    .rating-bg{
+
+    .rating-bg {
         width: 50px;
         height: 30px;
     }
-    .white-circle{
+
+    .white-circle {
         width: 30px;
         height: 30px;
     }
-    .orange-circle{
+
+    .orange-circle {
         width: 25px;
         height: 25px;
     }
-    .white-rgba-circle{
+
+    .white-rgba-circle {
         width: 25px;
         height: 25px;
     }
-    .pagination{
+
+    .pagination {
         width: 190px;
         height: 40px;
     }
-    .city-bg{
+
+    .city-bg {
         width: 110px;
         height: 30px;
     }
- } 
+}
+
 @media (max-width: 767px) and (min-width: 685px) {
-    .font-size-12{
+    .font-size-12 {
         font-size: 8px;
     }
-    .font-size-15{
+
+    .font-size-15 {
         font-size: 10px !important;
     }
-    .font-size-20{
+
+    .font-size-20 {
         font-size: 15px !important;
     }
-    .header-bg{
+
+    .header-bg {
         border-radius: unset;
     }
-    .contact-bg{
+
+    .contact-bg {
         width: 260px;
     }
-    .logo{
+
+    .logo {
         width: 120px !important;
     }
-    .rectangle{
+
+    .rectangle {
         padding: 14px 8px;
         width: unset !important;
     }
-    .delivery-bg{
+
+    .delivery-bg {
         width: 150px;
         height: 30px;
     }
-    .rating-bg{
+
+    .rating-bg {
         width: 50px;
         height: 30px;
     }
-    .white-circle{
+
+    .white-circle {
         width: 30px;
         height: 30px;
     }
-    .orange-circle{
+
+    .orange-circle {
         width: 25px;
         height: 25px;
     }
-    .white-rgba-circle{
+
+    .white-rgba-circle {
         width: 25px;
         height: 25px;
     }
-    .pagination{
+
+    .pagination {
         width: 190px;
         height: 40px;
     }
-    .city-bg{
+
+    .city-bg {
         width: 110px;
         height: 30px;
     }
- } 
+}
+
 @media (max-width: 991px) and (min-width: 768px) {
-    .font-size-12{
+    .font-size-12 {
         font-size: 8px;
     }
-    .font-size-15{
+
+    .font-size-15 {
         font-size: 10px !important;
     }
-    .font-size-20{
+
+    .font-size-20 {
         font-size: 15px !important;
     }
-    .header-bg{
+
+    .header-bg {
         border-radius: unset;
     }
-    .contact-bg{
+
+    .contact-bg {
         width: 260px;
     }
-    .logo{
+
+    .logo {
         width: 120px !important;
     }
-    .rectangle{
+
+    .rectangle {
         padding: 14px 8px;
         width: unset !important;
     }
-    .delivery-bg{
+
+    .delivery-bg {
         width: 150px;
         height: 30px;
     }
-    .rating-bg{
+
+    .rating-bg {
         width: 50px;
         height: 30px;
     }
-    .white-circle{
+
+    .white-circle {
         width: 30px;
         height: 30px;
     }
-    .orange-circle{
+
+    .orange-circle {
         width: 25px;
         height: 25px;
     }
-    .white-rgba-circle{
+
+    .white-rgba-circle {
         width: 25px;
         height: 25px;
     }
-    .pagination{
+
+    .pagination {
         width: 190px;
         height: 40px;
     }
-    .city-bg{
+
+    .city-bg {
         width: 110px;
         height: 30px;
     }
- } 
-@media (max-width: 1023px) and (min-width: 992px) { }
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {
+    .font-size-12 {
+        font-size: 8px;
+    }
+
+    .font-size-15 {
+        font-size: 10px !important;
+    }
+
+    .font-size-20 {
+        font-size: 15px !important;
+    }
+}
