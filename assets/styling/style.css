@@ -8,10 +8,15 @@ body {
 .header-bg {
     background-image: url("../images/hero-main3.png");
     height: 400px;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 0px 0px 140px 0px; */
+}
+
+.header-main {
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .header-bg-black {
